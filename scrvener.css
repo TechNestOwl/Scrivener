@@ -1,0 +1,56 @@
+#landingLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(234, 245, 245, 0.55);
+}
+.navLogo {
+  height: 60px;
+}
+body {
+  background: #657678;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #334d50, #cbcaa5);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #334d50, #cbcaa5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.responsive {
+  max-width: 75%;
+  height: auto;
+}
+
+img {
+  padding: 15px;
+}
+.displayBox {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fileContent {
+  width: inherit;
+}
+.scroll-box {
+  overflow: auto;
+  height: inherit;
+  width: inherit;
+  width: 100%;
+  float: left;
+  padding: 1rem;
+}
+
+/* .card {
+  border: black;
+  border-style: solid;
+} */
+
+.bookPubInfo {
+  font-weight: 900;
+  text-indent: 5px;
+}
+#bookDescription {
+  height: 250px;
+}
+.card-header {
+  background-color: #dde6d67e;
+}
